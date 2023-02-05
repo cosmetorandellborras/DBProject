@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="20"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/newComentTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Creació d'un nou comentari"
+        android:layout_weight="1"
+        />
+
+    <EditText
+        android:id="@+id/newComentTitleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Posar nom al nou comentari"
+        android:layout_weight="1"
+        />
+
+    <EditText
+        android:id="@+id/newCommentEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Text del nou Comentari"
+        android:layout_weight="5"
+         />
+
+    <Button
+        android:id="@+id/createButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CREAR"
+        android:backgroundTint="#BCBCBC"
+        android:textColor="@color/black"
+        android:layout_weight="1"
+         />
+
+    <TextView
+        android:id="@+id/selectCommentTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seleccioni un comentari"
+        android:layout_weight="1"
+         />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+         />
+
+    <Button
+        android:id="@+id/seeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VEURE"
+        android:backgroundTint="#BCBCBC"
+        android:textColor="@color/black"
+        android:layout_weight="1"
+         />
+
+    <TextView
+        android:id="@+id/seeCommentTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Veure comentari"
+        android:layout_weight="1"
+         />
+
+    <TextView
+        android:id="@+id/seeCommentTitleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textSize="20dp"
+        android:layout_weight="1"
+        />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"
+
+        />
+
+    <TextView
+        android:id="@+id/commentText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:layout_weight="6"
+         />
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black"
+         />
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ELIMINAR"
+        android:backgroundTint="#BCBCBC"
+        android:textColor="@color/black"
+        android:layout_weight="1"
+         />
+
+</LinearLayout>
